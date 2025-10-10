@@ -7,119 +7,32 @@ A small collection of simple Java programs that print common text/number/star pa
 This repository contains the following files (descriptions and sample outputs included):
 
 - `One.java` — prints a 5x5 block of stars.
-  - Sample output:
-    * * * * *
-    * * * * *
-    * * * * *
-    * * * * *
-    * * * * *
 
 - `Two.java` — prints a hollow rectangle (4x5) using `*`.
-  - Sample output:
-    *****
-    *   *
-    *   *
-    *****
 
 - `Three.java` — prints a left-aligned increasing right triangle of stars.
-  - Sample output:
-    *
-    **
-    ***
-    ****
-    *****
 
 - `Four.java` — prints an inverted left-aligned triangle of stars.
-  - Sample output:
-    *****
-    ****
-    ***
-    **
-    *
 
 - `Fourt.java` — prints a diamond-like pattern (pyramid up then down) with spaces for alignment.
-  - Sample output:
-    ____*
-    ___**
-    __***
-    _****
-    __***
-    ___**
-    ____*
 
 - `Five.java` — prints a right-aligned increasing triangle of stars.
-  - Sample output:
-    ____*
-    ___**
-    __***
-    _****
-    *****
 
 - `Six.java` — prints a numeric triangle where each row contains the row number repeated.
-  - Sample output:
-    1
-    22
-    333
-    4444
-    55555
 
 - `Seven.java` — prints a triangle of increasing numbers in each row starting at 1.
-  - Sample output:
-    1
-    1 2
-    1 2 3
-    1 2 3 4
-    1 2 3 4 5
 
 - `Eight.java` — prints rows with decreasing sequences starting from 5 down to 1.
-  - Sample output:
-    5 4 3 2 1
-    5 4 3 2
-    5 4 3
-    5 4
-    5
 
 - `Nine.java` — prints rows of increasing numbers starting from 1, with the number of columns decreasing each row.
-  - Sample output:
-    1 2 3 4 5
-    1 2 3 4
-    1 2 3
-    1 2
-    1
 
 - `Ten.java` — prints a right-aligned numeric pyramid where each row contains ascending numbers starting at 1.
-  - Sample output:
-    ____1
-    ___12
-    __123
-    _1234
-    12345
-
+ 
 - `Thir.java` — prints a symmetric diamond of stars (increasing then decreasing rows).
-  - Sample output:
-    *
-    * *
-    * * *
-    * * * *
-    * * *
-    * *
-    *
 
 - `Eleven.java` — prints sequential numbers across rows (continues counting across rows).
-  - Sample output:
-    1
-    2 3
-    4 5 6
-    7 8 9 10
-    11 12 13 14 15
 
 - `Twelve.java` — prints a triangle of 1s and 0s where parity of row+column determines the value.
-  - Sample output:
-    1
-    0 1
-    1 0 1
-    0 1 0 1
-    1 0 1 0 1
 
 
 ## How to compile and run
@@ -168,7 +81,3 @@ Feel free to open pull requests to:
 - Make sizes configurable via command-line arguments,
 - Add unit or snapshot tests that capture output.
 
-
-## License
-
-This repository has no license file. Add a LICENSE if you want to set terms for reuse.
